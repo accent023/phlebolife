@@ -1,0 +1,125 @@
+.banner {
+  position: relative;
+
+  .content {
+    min-height: 100vh;
+    padding-top: 7.8em;
+  }
+
+  // Call to action
+  .cta {
+    position: relative;
+    z-index: 3;
+
+    &__title {
+      font-size: 14rem;
+      line-height: 1.25;
+
+      .accent {
+        color: $primary;
+      }
+    }
+
+    &__subtitle {
+      max-width: 45ch;
+      font-size: 2.4rem;
+      color: $dark-100;
+    }
+
+    &__description {
+      max-width: 45ch;
+      font-size: 1.8rem;
+      margin: 5em 0 2em;
+    }
+
+    &__btn {
+      display: flex;
+      align-items: center;
+      padding: 0.75em 1.75em;
+      font-size: inherit;
+      border-radius: 11px;
+      border: 2px solid $primary;
+      color: $primary;
+      font-weight: 700;
+      background: none;
+      transition: 300ms ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.75;
+        transform: translateY(-2px);
+      }
+
+      &:active {
+        opacity: 1;
+        transform: translateY(3px);
+      }
+
+      img {
+        margin-right: 0.3em;
+      }
+    }
+  }
+
+  .statistics {
+    margin-top: 5rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0 14px 14px 0;
+    width: 100%;
+    max-width: 90rem;
+    padding: 37px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    position: absolute;
+    z-index: 2;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+
+    &__item {
+      margin-right: 3em;
+      text-align: center;
+    }
+
+    &__number {
+      font-size: 5.5rem;
+      color: $tertiary;
+    }
+  }
+
+  // Decortaions:
+  .woman {
+    position: absolute;
+    bottom: -6px;
+    right: 7.5rem;
+
+    &__decoration {
+      width: 50rem;
+      height: 50rem;
+      background-image: url("../../src/assets/images/decor001.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center bottom 10rem;
+      position: absolute;
+      display: block;
+      top: 50%;
+      transform: translateY(-30%);
+      left: -20rem;
+      z-index: 1;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: $secondary;
+    z-index: -2;
+  }
+}

@@ -1,0 +1,19 @@
+import Image from "next/image";
+import PhleboLife from "../../assets/images/logo.png";
+import Link from "next/link";
+
+const Logo = () => (
+  <div className="logo">
+    <Link href="/">
+      <Image
+        width={230}
+        src={PhleboLife}
+        quality={100}
+        priority
+        alt="Phlebolife"
+      />
+    </Link>
+  </div>
+);
+
+export default Logo;

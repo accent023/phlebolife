@@ -1,0 +1,35 @@
+// Colors
+$primary: #0096c7;
+$secondary: #bee9e8;
+$tertiary: #48cae4;
+$dark-100: rgb(0, 0, 0);
+$dark-75: rgba(0, 0, 0, 0.75);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+  color: $dark-75;
+}
+
+header,
+footer,
+section {
+  padding: 0 calc(50% - 650px);
+}

@@ -1,0 +1,107 @@
+{
+  "ru": {
+    "navigation": [
+      {
+        "id": 1,
+        "title": "О клинике",
+        "path": "/about-us"
+      },
+      {
+        "id": 2,
+        "title": "Заболевания",
+        "path": "/diseases"
+      },
+      {
+        "id": 3,
+        "title": "Методы лечения",
+        "path": "/treatments"
+      },
+      {
+        "id": 4,
+        "title": "Наши специалисты",
+        "path": "our-specialists"
+      },
+      {
+        "id": 5,
+        "title": "Цены",
+        "path": "our-prices-list"
+      },
+      {
+        "id": 6,
+        "title": "Контакты",
+        "path": "contact-us"
+      }
+    ],
+
+    "statistics": [
+      {
+        "id": 1,
+        "number": "17+",
+        "name": "Лет опыта"
+      },
+      {
+        "id": 2,
+        "number": "300+",
+        "name": "Вылеченных пациентов"
+      },
+      {
+        "id": 3,
+        "number": "24/7",
+        "name": "Рабочего времени"
+      }
+    ]
+  },
+
+  "uz": {
+    "navigation": [
+      {
+        "id": 1,
+        "title": "Клиника хақида",
+        "path": "/about-us"
+      },
+      {
+        "id": 2,
+        "title": "Вена касалликлари",
+        "path": "/diseases"
+      },
+      {
+        "id": 3,
+        "title": "Даволаш усуллари",
+        "path": "/treatments"
+      },
+      {
+        "id": 4,
+        "title": "Бизнинг мутахассислар",
+        "path": "our-specialists"
+      },
+      {
+        "id": 5,
+        "title": "Нархлар",
+        "path": "our-prices-list"
+      },
+      {
+        "id": 6,
+        "title": "Боғланиш",
+        "path": "contact-us"
+      }
+    ],
+
+    "statistics": [
+      {
+        "id": 1,
+        "number": "17+",
+        "name": "Йиллик тажриба"
+      },
+      {
+        "id": 2,
+        "number": "300+",
+        "name": "Даволанган пациентлар"
+      },
+      {
+        "id": 3,
+        "number": "24/7",
+        "name": "Иш фаолияти"
+      }
+    ]
+  }
+}
