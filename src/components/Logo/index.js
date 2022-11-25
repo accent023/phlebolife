@@ -6,7 +6,7 @@ const Logo = () => (
   <div className="logo">
     <Link href="/">
       <Image
-        width={230}
+        width={220}
         src={PhleboLife}
         quality={100}
         priority

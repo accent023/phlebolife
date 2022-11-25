@@ -3,12 +3,18 @@ import Layout from "../src/components/Common/Layout";
 import db from "../src/database/db.json";
 import AppContext from "../src/context/AppContext";
 import Banner from "../src/components/Banner";
+import About from "../src/components/About";
+import Diseases from "../src/components/Diseases";
+import Treatments from "../src/components/Treatments";
 
 const HomePage = ({ db, locale }) => {
   return (
     <AppContext.Provider value={{ db: db[locale], locale }}>
       <Layout>
         <Banner />
+        <About />
+        <Diseases />
+        <Treatments />
       </Layout>
     </AppContext.Provider>
   );
@@ -21,7 +27,15 @@ export const getStaticProps = async ({ locale }) => {
     props: {
       db,
       locale,
-      ...(await serverSideTranslations(locale, ["common", "banner"])),
+      ...(await serverSideTranslations(locale, [
+        "common",
+        "banner",
+        "about",
+        "diseases",
+        "treatments",
+      ])),
     },
+
+    revalidate: 60,
   };
 };

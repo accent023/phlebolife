@@ -5,7 +5,7 @@ import AppContext from "../../context/AppContext";
 import { useState } from "react";
 
 const Nav = () => {
-  const { db, locale } = useContext(AppContext);
+  const { db } = useContext(AppContext);
   const [activeLink, setActiveLink] = useState(0);
 
   const activeLinkHandler = (index) =>

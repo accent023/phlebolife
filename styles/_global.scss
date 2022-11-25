@@ -1,7 +1,8 @@
 // Colors
-$primary: #0096c7;
-$secondary: #bee9e8;
-$tertiary: #48cae4;
+$primary: #2f61ad;
+$secondary: #be1f35;
+$tertiary: #00a4e4;
+$rare: #007fbd;
 $dark-100: rgb(0, 0, 0);
 $dark-75: rgba(0, 0, 0, 0.75);
 
@@ -31,5 +32,5 @@ body {
 header,
 footer,
 section {
-  padding: 0 calc(50% - 650px);
+  padding: 5em calc(50% - 625px) 0;
 }

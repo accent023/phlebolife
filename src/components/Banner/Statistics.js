@@ -7,7 +7,7 @@ export const Statistics = () => {
   return (
     <ul className="statistics">
       {db.statistics.map((item, index) => (
-        <li className="statistics__item">
+        <li key={index} className="statistics__item">
           <h3 className="statistics__number">{item.number}</h3>
           <p className="statistics__description">{item.name}</p>
         </li>
