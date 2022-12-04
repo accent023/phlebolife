@@ -8,7 +8,7 @@ export const Cta = () => {
   return (
     <div className="cta">
       <h1 className="cta__title">
-        Phlebo<span className="accent">life</span>
+        Phlebo<span className="accent">Life</span>
       </h1>
       <p className="cta__subtitle">{translate("subtitle")}</p>
       <p className="cta__description">{translate("description")}</p>

@@ -7,7 +7,7 @@ const ReadMore = ({ children, href, className }) => {
     <Link href={href} legacyBehavior>
       <a className={className}>
         {children}
-        <Image src={arrowLeft} alt="call" />
+        <Image src={arrowLeft} alt="read more" />
       </a>
     </Link>
   );

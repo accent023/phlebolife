@@ -6,6 +6,7 @@ import Banner from "../src/components/Banner";
 import About from "../src/components/About";
 import Diseases from "../src/components/Diseases";
 import Treatments from "../src/components/Treatments";
+import Advantages from "../src/components/Advantages";
 
 const HomePage = ({ db, locale }) => {
   return (
@@ -15,6 +16,7 @@ const HomePage = ({ db, locale }) => {
         <About />
         <Diseases />
         <Treatments />
+        <Advantages />
       </Layout>
     </AppContext.Provider>
   );
@@ -33,6 +35,7 @@ export const getStaticProps = async ({ locale }) => {
         "about",
         "diseases",
         "treatments",
+        "advantages",
       ])),
     },
 

@@ -144,6 +144,54 @@
         "id": 8,
         "name": "Лечение лимфедемы (лимфостаза)"
       }
+    ],
+
+    "advantages": [
+      {
+        "id": 1,
+        "name": "Амбулаторное лечение (1-2 часа)",
+        "icon": "/images/hospital-room.png"
+      },
+      {
+        "id": 2,
+        "name": "Местная анестезия",
+        "icon": "/images/injection.png"
+      },
+      {
+        "id": 3,
+        "name": "Отсутствие реабилитации",
+        "icon": "/images/reabilitation.png"
+      },
+      {
+        "id": 4,
+        "name": "Отсутствие разрезов, швов и шрамов",
+        "icon": "/images/scalpel.png"
+      },
+      {
+        "id": 5,
+        "name": "Операция под контролем УЗИ",
+        "icon": "/images/radioactive.png"
+      },
+      {
+        "id": 6,
+        "name": "Безболезненность",
+        "icon": "/images/blood-cells.png"
+      },
+      {
+        "id": 7,
+        "name": "Сохраняется трудоспособность",
+        "icon": "/images/disabled.png"
+      },
+      {
+        "id": 8,
+        "name": "Риск рецидива минимальный",
+        "icon": "/images/pain.png"
+      },
+      {
+        "id": 9,
+        "name": "Возможность лечения пожилых пациентов",
+        "icon": "/images/insurance.png"
+      }
     ]
   },
 
@@ -285,6 +333,54 @@
       {
         "id": 8,
         "name": "Лимфедема (лимфостаз)-ни даволаш"
+      }
+    ],
+
+    "advantages": [
+      {
+        "id": 1,
+        "name": "Амбулаторли даво (1-2 соатгача)",
+        "icon": "/images/hospital-room.png"
+      },
+      {
+        "id": 2,
+        "name": "Махалий оғриқсизлантириш",
+        "icon": "/images/injection.png"
+      },
+      {
+        "id": 3,
+        "name": "Реабилитациянинг йўқлиги",
+        "icon": "/images/reabilitation.png"
+      },
+      {
+        "id": 4,
+        "name": "Кесиш, чок ва шрамларсиз",
+        "icon": "/images/scalpel.png"
+      },
+      {
+        "id": 5,
+        "name": "Жаррохлик УТТ назоратида",
+        "icon": "/images/radioactive.png"
+      },
+      {
+        "id": 6,
+        "name": "Деярли оғриқсиз",
+        "icon": "/images/blood-cells.png"
+      },
+      {
+        "id": 7,
+        "name": "Ишлаш қобилияти сақланиши",
+        "icon": "/images/disabled.png"
+      },
+      {
+        "id": 8,
+        "name": "Кайталаш эхтимоли паст",
+        "icon": "/images/pain.png"
+      },
+      {
+        "id": 9,
+        "name": "Қарияларни даволаш имкони",
+        "icon": "/images/insurance.png"
       }
     ]
   }
